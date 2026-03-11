@@ -101,12 +101,12 @@ public void clear(){
         btnissue.setText("Issue Book");
         btnissue.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnissueActionPerformed(evt);
-            }
-        });
+                btnissueActionPerformed(evt); 
+        }
+    });
         getContentPane().add(btnissue, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 630, 130, 40));
 
-        txtid.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
+        txtid.setFont(new java.awt.Font("Segoe UI", 1, 18)); 
         getContentPane().add(txtid, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 200, 350, 40));
 
         txtstudentid.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
@@ -245,3 +245,4 @@ public void clear(){
     private javax.swing.JTextField txtstudentid;
     // End of variables declaration//GEN-END:variables
 }
+

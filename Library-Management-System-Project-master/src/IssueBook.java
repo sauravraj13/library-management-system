@@ -191,7 +191,7 @@ public void clear(){
             Logger.getLogger(SignIn.class.getName()).log(Level.SEVERE, null, ex);
         }        // TODO add your handling code here:
     }//GEN-LAST:event_jButton1ActionPerformed
-
+ //comment line for instructions
     /**
      * @param args the command line arguments
      */
